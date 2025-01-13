@@ -9,3 +9,11 @@ This project started as a way to test a [W5100 Shield for Arduino Uno](https://w
 | 5V      | VCC     |
 | A4      | SDA     |
 | A5      | SLC     |
+
+### Setup tasks
+1. Connect the W5100 Ethernet sheid and I2C LCD to the Arduino Uno
+2. Change the IP Address to match your local network
+3. Upload the code to the Arduino
+4. Open a telnet session to the IP Address you defined in step 2.
+   On a Windows PC you can use PuTTY to open a telnet session.
+   On a Linux machine type telnet 192.168.x.x where x is the IP address defined in step 2.
